@@ -90,7 +90,7 @@ export default class LoginScreen extends Component {
       <View style={styles.container}>
         <SafeAreaView />
         <View style={styles.upperContainer}>
-          <Image source={require("../assets/santa.png")} style={styles.image} />
+          
         </View>
         <View style={styles.middleContainer}>
           <CustomInput
@@ -121,10 +121,7 @@ export default class LoginScreen extends Component {
           />
         </View>
         <View style={styles.lowerContainer}>
-          <Image
-            source={require("../assets/book.png")}
-            style={styles.bookImage}
-          />
+          
         </View>
         <SignUpModal
           setFirstName={text => this.setState({ firstName: text })}
